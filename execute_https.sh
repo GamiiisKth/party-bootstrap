@@ -67,7 +67,7 @@ case "$1" in
       if [ ! -d "$subdir" ];
       then
         echo "Cloning repository git@github.com:SO4IT/$subdir"
-        git clone https://${GITUSER}:${GITPASS}@github.com/SO4IT/$subdir.git
+        git clone https://${GITUSER}:${GITPASS}@github.com/GamiiisKTH/$subdir.git
       else
         echo "Not cloning repository git@github.com:SO4IT/$subdir since it alredy exists"
       fi

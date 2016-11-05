@@ -19,7 +19,8 @@ set -e
 buildOrder=(
 	'backend-party'
 	'endpoint-party'
-	'pu-party'     
+	'pu-party'
+	'runner'     
  )
 
 commit(){
